@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    #test {
+      /* align-items: center;
+            text-align: center; */
+      border: #5AB029 3px solid;
+      padding: 10px 40px 40px 40px;
+      background-color: #E5FCE3;
+      width: 50%;
+      margin-left: 25%;
+      font-family: serif;
+      font-size: 30px;
+    }
+
+    #idnum {
+      height: 30px;
+      font-size: 14pt;
+    }
+
+    #name {
+      height: 30px;
+      font-size: 14pt;
+    }
+
+    .button {
+      background-color: white;
+      color: black;
+      border: 2px solid #008CBA;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 26px;
+      font-family: serif;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+
+
+    .button:hover {
+      background-color: #008CBA;
+      color: white;
+    }
+  </style>
+  <script>
+    function register() {
+      var userid = document.getElementById("idnum").value;
+      var username = document.getElementById("name").value;
+      // alert(id,username);
+      // alert("hi");
+
+      if (localStorage) {
+        localStorage.setItem("id", userid);
+        localStorage.setItem("name", username);
+        // alert("data entered");
+        // var y=localStorage.getItem("id");
+        // var x=localStorage.getItem("name");
+        // alert(y+x);
+      }
+    }
+  </script>
+  <!-- <title>Hello, world!</title> -->
+</head>
+
+<body>
+  <!-- <h1>Hello, world!</h1> -->
+  <!-- <button type="submit" onclick="register()"> <a href="dummy.html">Start Quiz</a></button> -->
+  <!-- <div id="test">
+    <div class="row">
+      <div class="col">
+      <center><label>Enter your roll number:</label><br><br>
+        <input type="text" id="idnum" size="50" maxlength="10" required></center>
+      </div>
+      <div class="col">
+        <br><br>
+      <center><label>Enter your name:</label><br><br>
+        <input type="text" id="name" size="50" required></center>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <br><br>
+        
+        <center><a class="button" href="dummy.html" role="button" onclick="register()"><b>Start Quiz</b></a></center>
+      </div>
+    </div>
+  </div> -->
+  <div id="test">
+    <form action="test.html"><br><br>
+      <center><label for="username">User-name:</label><br><br>
+      <input type="text" id="name" name="username" size="50" minlength="2" required><br><br>
+      <label for="username">User-id:</label><br><br>
+      <input type="text" id="idnum" name="userid" size="50" maxlength="10" minlength="5" required><br><br>
+      <input type="submit" onclick="register()"></center>
+    </form>
+  </div>
+</body>
+
+</html>

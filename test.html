@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz</title>
+    <style>
+        #count {
+            /* align-items: center;
+            text-align: center; */
+            border: #5AB029 3px solid;
+            /* padding: 10px 40px 40px 40px; */
+            background-color: #E5FCE3;
+            width: 25%;
+            margin-left: 37.5%;
+            font-family: serif;
+            font-size: 30px;
+            text-align: center;
+        }
+        #test {
+            /* align-items: center;
+            text-align: center; */
+            border: #5AB029 3px solid;
+            padding: 10px 40px 40px 40px;
+            background-color: #E5FCE3;
+            width: 50%;
+            margin-left: 25%;
+            font-family: serif;
+            font-size: 30px;
+        }
+
+        #test_status {
+            /* border: #5AB029 3px solid; */
+            /* padding: 10px 40px 40px 40px; */
+            /* background-color: #E5FCE3; */
+            width: 50%;
+            margin-left: 25%;
+            font-family: serif;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .button {
+            background-color: white;
+            color: black;
+            border: 2px solid #008CBA;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 26px;
+            font-family: serif;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+
+        .button:hover {
+            background-color: #008CBA;
+            color: white;
+        }
+    </style>
+    <!-- <script src="quiz.js"></script> -->
+    <script>
+        var score = 0;
+        // pos is position of where the user in the test or which question they're up to
+        var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, correct = 0, notatt = 0;
+        // this is a multidimensional array with 4 inner array elements with 5 elements inside them
+        var questions = null;
+        var ourRequest = new XMLHttpRequest();
+        ourRequest.open('GET','https://raw.githubusercontent.com/sricharan22/htmlques/master/questions.json');
+        ourRequest.onload = function(){
+            questions = JSON.parse(ourRequest.responseText);
+            console.log(questions[0]);
+        };
+        ourRequest.send();
+        // this get function is short for the getElementById function  
+        function get(x) {
+            return document.getElementById(x);
+        }
+        // this function renders a question for display on the page
+        var count = 15;
+        var interval = setInterval(function () {
+            document.getElementById('count').innerHTML = "Time Remaining:"+count;
+            count--;
+            if (count === 0) {
+                // clearInterval(interval);
+                // document.getElementById('count').innerHTML = 'Done';
+                // or...
+                alert("You're out of time! \n Move to next question");
+                notatt ++;
+                count = 15;
+                pos ++;
+                renderQuestion();
+            }
+        }, 1000);
+        function renderQuestion() {
+
+            test = get("test");
+            if (pos >= questions.length) {
+                // test.innerHTML = "<h2>You got " + correct + " of " + questions.length + " questions correct</h2>";
+                score = correct
+                register();
+                clearInterval(interval);
+                document.getElementById('count').innerHTML = 'Done';
+                get("test_status").innerHTML = "Test completed";
+                test.innerHTML = '<center><a class="button" href="quiz.html" role="button"><b>View Results</b></a></center>';
+                // test.innerHTML = "<center><button type='submit'> <a href='quiz.html'>view results</a></button></center>";
+                // resets the variable to allow users to restart the test
+                pos = 0;
+                correct = 0;
+                // stops rest of renderQuestion function running when test is completed
+                return false;
+            }
+            get("test_status").innerHTML = "Question " + (pos + 1) + " of " + questions.length;
+
+            question = questions[pos].question;
+            chA = questions[pos].a;
+            chB = questions[pos].b;
+            chC = questions[pos].c;
+            // display the question
+            test.innerHTML = "<h3>" + question + "</h3>";
+            // display the answer options
+            // the += appends to the data we started on the line above
+            test.innerHTML += "<label> <input type='radio' name='choices' value='A'> " + chA + "</label><br>";
+            test.innerHTML += "<label> <input type='radio' name='choices' value='B'> " + chB + "</label><br>";
+            test.innerHTML += "<label> <input type='radio' name='choices' value='C'> " + chC + "</label><br><br>";
+            test.innerHTML += "<button onclick='checkAnswer()'>Submit Answer</button>";
+        }
+        function checkAnswer() {
+            // use getElementsByName because we have an array which it will loop through
+            var getSelectedValue = document.querySelector('input[name="choices"]:checked');
+            if (getSelectedValue != null) {
+                // alert("Radio button is selected" + getSelectedValue);
+                choices = document.getElementsByName("choices");
+                for (var i = 0; i < choices.length; i++) {
+                    if (choices[i].checked) {
+                        choice = choices[i].value;
+                    }
+                }
+                // checks if answer matches the correct choice
+                if (choice == questions[pos].answer) {
+                    //each time there is a correct answer this value increases
+                    correct++;
+                }
+                // changes position of which character user is on
+                pos++;
+                // clearInterval(interval);
+                count = 15;
+                // then the renderQuestion function runs again to go to next question
+                renderQuestion();
+            }
+            else {
+                alert("Please select an option to continue");
+            }
+
+        }
+        // Add event listener to call renderQuestion on page load event
+        window.addEventListener("load", renderQuestion);
+        function register() {
+            if (localStorage) {
+                localStorage.setItem("score", score);
+                localStorage.setItem("totalques", questions.length);
+                localStorage.setItem("unattempted", notatt);
+                // var y=localStorage.getItem("totalques");
+                // alert(y);
+            }
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <h2 id="test_status"></h2>
+    <h2 id="count"></h2>
+    <div id="test"></div>
+</body>
+
+</html>
