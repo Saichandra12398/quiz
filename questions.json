@@ -26,5 +26,47 @@
         "b": "KTR",
         "c": "Harish rao",
         "answer": "C"
+    },
+    {
+        "question": "National animal",
+        "a": "lion",
+        "b": "Tiger",
+        "c": "peacock",
+        "answer": "Tiger"
+    },
+    {
+        "question": "how many colors does indian flag have",
+        "a": "3",
+        "b": "4",
+        "c": "5",
+        "answer": "3"
+    },
+    {
+        "question": "Who is PM of india",
+        "a": "Narendra Modi",
+        "b": "Abdul kalam",
+        "c": "Nehru",
+        "answer": "A"
+    },
+    {
+        "question": "CM of Telangana",
+        "a": "KCR",
+        "b": "KTR",
+        "c": "Harish rao",
+        "answer": "C"
+    },
+    {
+        "question": "National animal",
+        "a": "lion",
+        "b": "Tiger",
+        "c": "peacock",
+        "answer": "Tiger"
+    },
+    {
+        "question": "how many colors does indian flag have",
+        "a": "3",
+        "b": "4",
+        "c": "5",
+        "answer": "3"
     }
 ]
