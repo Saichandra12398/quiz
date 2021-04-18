@@ -6679,5 +6679,14 @@
             "keyStrokeInfo": "https://raw.githubusercontent.com/Saichandra12398/quiz/master/os.json",
             "position": "95,29"
         }
+    ],
+    "current.json": [
+        {
+            "operation": "PASTE",
+            "lines": 72,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:28:32",
+            "keyStrokeInfo": "[\r\n    {\r\n        \"question\": \"National animal\",\r\n        \"a\": \"lion\",\r\n        \"b\": \"Tiger\",\r\n        \"c\": \"peacock\",\r\n        \"answer\": \"B\"\r\n    },\r\n    {\r\n        \"question\": \"how many colors does indian flag have\",\r\n        \"a\": \"3\",\r\n        \"b\": \"4\",\r\n        \"c\": \"5\",\r\n        \"answer\": \"A\"\r\n    },\r\n    {\r\n        \"question\": \"Who is PM of india\",\r\n        \"a\": \"Narendra Modi\",\r\n        \"b\": \"Abdul kalam\",\r\n        \"c\": \"Nehru\",\r\n        \"answer\": \"A\"\r\n    },\r\n    {\r\n        \"question\": \"CM of Telangana\",\r\n        \"a\": \"KCR\",\r\n        \"b\": \"KTR\",\r\n        \"c\": \"Harish rao\",\r\n        \"answer\": \"C\"\r\n    },\r\n    {\r\n        \"question\": \"National animal\",\r\n        \"a\": \"lion\",\r\n        \"b\": \"Tiger\",\r\n        \"c\": \"peacock\",\r\n        \"answer\": \"B\"\r\n    },\r\n    {\r\n        \"question\": \"how many colors does indian flag have\",\r\n        \"a\": \"3\",\r\n        \"b\": \"4\",\r\n        \"c\": \"5\",\r\n        \"answer\": \"A\"\r\n    },\r\n    {\r\n        \"question\": \"Who is PM of india\",\r\n        \"a\": \"Narendra Modi\",\r\n        \"b\": \"Abdul kalam\",\r\n        \"c\": \"Nehru\",\r\n        \"answer\": \"A\"\r\n    },\r\n    {\r\n        \"question\": \"CM of Telangana\",\r\n        \"a\": \"KCR\",\r\n        \"b\": \"KTR\",\r\n        \"c\": \"Harish rao\",\r\n        \"answer\": \"C\"\r\n    },\r\n    {\r\n        \"question\": \"National animal\",\r\n        \"a\": \"lion\",\r\n        \"b\": \"Tiger\",\r\n        \"c\": \"peacock\",\r\n        \"answer\": \"B\"\r\n    },\r\n    {\r\n        \"question\": \"how many colors does indian flag have\",\r\n        \"a\": \"3\",\r\n        \"b\": \"4\",\r\n        \"c\": \"5\",\r\n        \"answer\": \"A\"\r\n    }\r\n]",
+            "position": "1,1"
+        }
     ]
 }
