@@ -1,0 +1,73 @@
+[
+    {
+        "question": " Which of these best describes an array?",
+        "a": "A data structure that shows a hierarchical behavior",
+        "b": " Container of objects of similar types",
+        "c": "Arrays are immutable once initialised",
+        "answer": "B"
+    },
+    {
+        "question": " How do you initialize an array in C?",
+        "a": " int arr[3] = (1,2,3);",
+        "b": " int arr(3) = {1,2,3};",
+        "c": "int arr[3] = {1,2,3};",
+        "answer": "C"
+    },
+    {
+        "question": "  How do you instantiate an array in Java?",
+        "a": "int arr[] = new int(3);",
+        "b": "  int arr[];",
+        "c": " int arr[] = new int[3];",
+        "answer": "C"
+    },
+    {
+        "question": "When does the ArrayIndexOutOfBoundsException occur?",
+        "a": "Compile-time",
+        "b": " Run-time",
+        "c": "all of the mentioned",
+        "answer": "B"
+    },
+    {
+        "question": " Which of these best describes an array?",
+        "a": "A data structure that shows a hierarchical behavior",
+        "b": " Container of objects of similar types",
+        "c": "Arrays are immutable once initialised",
+        "answer": "B"
+    },
+    {
+        "question": " How do you initialize an array in C?",
+        "a": " int arr[3] = (1,2,3);",
+        "b": " int arr(3) = {1,2,3};",
+        "c": "int arr[3] = {1,2,3};",
+        "answer": "C"
+    },
+    {
+        "question": "  How do you instantiate an array in Java?",
+        "a": "int arr[] = new int(3);",
+        "b": "  int arr[];",
+        "c": " int arr[] = new int[3];",
+        "answer": "C"
+    },
+    {
+        "question": "When does the ArrayIndexOutOfBoundsException occur?",
+        "a": "Compile-time",
+        "b": " Run-time",
+        "c": "all of the mentioned",
+        "answer": "B"
+    },
+    {
+        "question": " Which of these best describes an array?",
+        "a": "A data structure that shows a hierarchical behavior",
+        "b": " Container of objects of similar types",
+        "c": "Arrays are immutable once initialised",
+        "answer": "B"
+    },
+    {
+        "question": " How do you initialize an array in C?",
+        "a": " int arr[3] = (1,2,3);",
+        "b": " int arr(3) = {1,2,3};",
+        "c": "int arr[3] = {1,2,3};",
+        "answer": "C"
+    }
+  
+]

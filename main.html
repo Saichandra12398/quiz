@@ -11,40 +11,69 @@
         function login() {
             var id = document.getElementById("rollno").value;
             var name = document.getElementById("firstname").value;
+            var course = document.getElementById("top").value;
+            // alert(course);
 
             if (localStorage) {
                 localStorage.setItem("id", id);
                 localStorage.setItem("name", name);
+                localStorage.setItem("course", course);
                 localStorage.setItem("correct", "0");
                 localStorage.setItem("wrong", "0");
             }
         }
     </script>
+    <style>
+        body {
+            background-image: url('bg2.jpg');
+            /* background-position: center; */
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 
 </head>
 
 <body>
     <br>
-    <center><h1 style='font-size: 50px; font-family: serif;''><b><u>Today's Quiz</u></b></h1></center>
-        <form action="ques1.html" style="font-family: serif; font-size: 30px;">
-            <div class="form-row">
-                <div class="col-md-2 mb-3"></div>
-                <div class="col-md-8 mb-3">
-                    <label for="firstname">First name</label>
-                    <input type="text" class="form-control" id="firstname" value="" required><br>
-                </div>
-                <br>
+    <center>
+        <h1 style='font-size: 50px; font-family: serif;''><b><u>Today' s Quiz</u></b></h1>
+    </center>
+    <form action="important.html" style="font-family: serif; font-size: 30px;">
+        <div class="form-row">
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-8 mb-3" >
+                <label for="firstname" style="color: aqua;"><b>First name</b></label>
+                <input type="text" class="form-control" id="firstname" value="" required><br>
             </div>
-            <div class="form-row">
-                <div class="col-md-2 mb-3"></div>
-                <div class="col-md-8 mb-3">
-                    <label for="rollno">Roll.no</label>
-                    <input type="text" class="form-control" id="rollno" value="" required><br>
-                </div>
-                <br>
+            <div class="col-md-2 mb-3"></div>
+            <br>
+        </div>
+        <div class="form-row">
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-8 mb-3">
+                <label for="rollno" style="color: aqua;"><b>Roll.no</b></label>
+                <input type="text" class="form-control" id="rollno" value="" required><br>
             </div>
-            <center><input type="submit" onclick="login()"></center>
-        </form>
+            <div class="col-md-2 mb-3"></div>
+            <br>
+        </div>
+        <div class="form-row">
+            <div class="col-md-2 mb-3"></div>
+            <div class="col-md-8 mb-3">
+                <center><label for="select" style="color: aqua;"><b>Choose course:</b></label>
+                <select class="selectpicker" data-style="btn-primary" name="select" id="top" required>
+                    <option value="">None</option>
+                    <option value="1">General</option>
+                    <option value="2">HTML</option>
+                    <option value="3">java</option>
+                </select></center><br>
+            </div>
+            <div class="col-md-2 mb-3"></div>
+            <br>
+        </div>
+        <center><input type="submit" onclick="login()"></center>
+    </form>
 </body>
 
 </html>
