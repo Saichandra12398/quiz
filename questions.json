@@ -4,14 +4,14 @@
         "a": "lion",
         "b": "Tiger",
         "c": "peacock",
-        "answer": "Tiger"
+        "answer": "B"
     },
     {
         "question": "how many colors does indian flag have",
         "a": "3",
         "b": "4",
         "c": "5",
-        "answer": "3"
+        "answer": "A"
     },
     {
         "question": "Who is PM of india",
@@ -32,14 +32,14 @@
         "a": "lion",
         "b": "Tiger",
         "c": "peacock",
-        "answer": "Tiger"
+        "answer": "B"
     },
     {
         "question": "how many colors does indian flag have",
         "a": "3",
         "b": "4",
         "c": "5",
-        "answer": "3"
+        "answer": "A"
     },
     {
         "question": "Who is PM of india",
@@ -60,13 +60,13 @@
         "a": "lion",
         "b": "Tiger",
         "c": "peacock",
-        "answer": "Tiger"
+        "answer": "B"
     },
     {
         "question": "how many colors does indian flag have",
         "a": "3",
         "b": "4",
         "c": "5",
-        "answer": "3"
+        "answer": "A"
     }
 ]
