@@ -1,0 +1,72 @@
+[
+    {
+        "question": "Round robin scheduling falls under the category of ____________",
+        "a": "Non-preemptive scheduling",
+        "b": "Preemptive scheduling",
+        "c": "All of the mentioned",
+        "answer": "B"
+    },
+    {
+        "question": " With round robin scheduling algorithm in a time shared system ____________",
+        "a": "using very large time slices converts it into First come First served scheduling algorithm",
+        "b": "using very small time slices converts it into First come First served scheduling algorithm",
+        "c": "using extremely small time slices increases performance",
+        "answer": "A"
+    },
+    {
+        "question": " Complex scheduling algorithms ____________",
+        "a": "are very appropriate for very large computers",
+        "b": " use minimal resources",
+        "c": "use many resources",
+        "answer": "A"
+    },
+    {
+        "question": "What is Scheduling?",
+        "a": "allowing a job to use the processor",
+        "b": "making proper use of processor",
+        "c": "all of the mentioned",
+        "answer": "A"
+    },
+    {
+        "question": "Round robin scheduling falls under the category of ____________",
+        "a": "Non-preemptive scheduling",
+        "b": "Preemptive scheduling",
+        "c": "All of the mentioned",
+        "answer": "B"
+    },
+    {
+        "question": " With round robin scheduling algorithm in a time shared system ____________",
+        "a": "using very large time slices converts it into First come First served scheduling algorithm",
+        "b": "using very small time slices converts it into First come First served scheduling algorithm",
+        "c": "using extremely small time slices increases performance",
+        "answer": "A"
+    },
+    {
+        "question": " Complex scheduling algorithms ____________",
+        "a": " are very appropriate for very large computers",
+        "b": " use minimal resources",
+        "c": "use many resources",
+        "answer": "A"
+    },
+    {
+        "question": "What is Scheduling?",
+        "a": "allowing a job to use the processor",
+        "b": "making proper use of processor",
+        "c": "all of the mentioned",
+        "answer": "A"
+    },
+    {
+        "question": " Complex scheduling algorithms ____________",
+        "a": " are very appropriate for very large computers",
+        "b": " use minimal resources",
+        "c": "use many resources",
+        "answer": "A"
+    },
+    {
+        "question": "What is Scheduling?",
+        "a": "allowing a job to use the processor",
+        "b": "making proper use of processor",
+        "c": "all of the mentioned",
+        "answer": "A"
+    }
+]
