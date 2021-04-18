@@ -64,24 +64,17 @@
                 var opt2 = q[k].b;
                 var opt3 = q[k].c;
                 var answer = q[k].answer;
-                // if (localStorage) {
                 var useranswer = localStorage.getItem(k);
-                // }
+                
                 sol +=
-                    // '<div class="container">' +
-                    // '<div class="row">' +
-                    // '<div class="col-sm-3"></div>' +
-                    // '<div class="col-sm-12">' +
+                    
                     '<h3> Q' + (k + 1) + ") " + ques + '</h3>' +
                     '<h6>A.   ' + opt1 + '</h6>' +
                     '<h6>B.   ' + opt2 + '</h6>' +
                     '<h6>C.   ' + opt3 + '</h6>' +
                     '<h5>Correct Answer:  <u><b>' + answer + '</b></u></h5>' +
                     '<h6>Your Answer:  <u>' + useranswer + '</u></h6><br>' ;
-                    // '</div>' +
-                    // '</div>' +
-                    // '</div>';
-
+                
             }
             document.getElementById("test_status").innerHTML = "<b>DETAILED REPORT<b>";
             document.getElementById("count").innerHTML = sol;

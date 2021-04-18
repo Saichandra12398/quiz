@@ -3703,6 +3703,153 @@
             "keyStrokeTimeStamp": "Fri Apr 16 2021 11:25:24",
             "keyStrokeInfo": "l",
             "position": "42,71"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:33:31",
+            "keyStrokeInfo": "",
+            "position": "38,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:33:34",
+            "keyStrokeInfo": "",
+            "position": "44,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:33:35",
+            "keyStrokeInfo": "",
+            "position": "44,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:33:35",
+            "keyStrokeInfo": "",
+            "position": "44,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:33:35",
+            "keyStrokeInfo": "",
+            "position": "43,129"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:33:43",
+            "keyStrokeInfo": "",
+            "position": "46,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:33:46",
+            "keyStrokeInfo": "",
+            "position": "54,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:33:49",
+            "keyStrokeInfo": "=",
+            "position": "55,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:33:52",
+            "keyStrokeInfo": "// display the answer options\r\n    // the += appends to the data we started on the line above\r\n    ",
+            "position": "55,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:33:56",
+            "keyStrokeInfo": "",
+            "position": "55,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:03",
+            "keyStrokeInfo": "",
+            "position": "61,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:06",
+            "keyStrokeInfo": "",
+            "position": "61,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:07",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "63,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:12",
+            "keyStrokeInfo": "",
+            "position": "64,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:15",
+            "keyStrokeInfo": "",
+            "position": "70,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:17",
+            "keyStrokeInfo": "",
+            "position": "71,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:19",
+            "keyStrokeInfo": "",
+            "position": "78,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:21",
+            "keyStrokeInfo": "",
+            "position": "79,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:23",
+            "keyStrokeInfo": "",
+            "position": "80,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:30",
+            "keyStrokeInfo": "",
+            "position": "87,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:34:32",
+            "keyStrokeInfo": "",
+            "position": "93,1"
         }
     ],
     "quiz.html": [
@@ -4577,6 +4724,34 @@
             "keyStrokeTimeStamp": "Sun Apr 18 2021 21:58:10",
             "keyStrokeInfo": "",
             "position": "79,76"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:35:16",
+            "keyStrokeInfo": "",
+            "position": "71,21"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:35:20",
+            "keyStrokeInfo": "",
+            "position": "69,17"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:35:25",
+            "keyStrokeInfo": "",
+            "position": "67,17"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:35:33",
+            "keyStrokeInfo": "",
+            "position": "77,17"
         }
     ],
     "os.json": [
@@ -6678,6 +6853,20 @@
             "keyStrokeTimeStamp": "Sun Apr 18 2021 22:22:08",
             "keyStrokeInfo": "https://raw.githubusercontent.com/Saichandra12398/quiz/master/os.json",
             "position": "95,29"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:30:41",
+            "keyStrokeInfo": "https://raw.githubusercontent.com/Saichandra12398/quiz/master/current.json",
+            "position": "91,29"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sun Apr 18 2021 22:31:14",
+            "keyStrokeInfo": "https://raw.githubusercontent.com/Saichandra12398/quiz/master/DSA.json",
+            "position": "99,29"
         }
     ],
     "current.json": [
